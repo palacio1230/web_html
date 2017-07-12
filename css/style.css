@@ -1,0 +1,299 @@
+/*---------  Fondos---------*/
+@font-face{
+	font-family: Bold;
+	src:url("../fonts/Bold.ttf");
+
+	
+}
+
+
+/*---------  body ---------*/
+body{
+	margin: 0;
+	background-color: #333a83;
+	background-size: cover;
+}
+
+h1{
+	font-size: 95px;
+	color: #333a83;
+	font-family:"Bold";
+
+}
+
+h2{
+	font-size: 30px;
+	color: white;
+	font-family:"Bold";
+}
+
+p{
+	font-family:arial;
+	color: white;
+	font-size: 14px;
+}
+
+/*---------  fondos ---------*/
+
+.fondo_1{
+	width: 900px;
+	background-color:#6294ec;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.fondo_2{
+	width: 900px;
+	background-color:#6294ec;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+.fondo_3{
+	width: 900px;
+	background-color:#333a83;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: -20px;
+}
+
+.fondo_4{
+	width: 900px;
+	background-color:#6294ec;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: -20px;
+}
+
+.fondo_5{
+	width: 900px;
+	background-color:#333a83;
+	margin-left: auto;
+	margin-right:auto;
+}
+
+/*---------  cajas ---------*/
+.caja_1{
+	display: inline-block;
+	margin-left: 100px;
+	margin-bottom: 100px;
+
+}
+
+.caja_persona{
+	display: inline-block;
+	margin-left: 30px;
+	padding-top: 300px;
+	margin-bottom: 750px;
+	vertical-align: middle;
+
+}
+
+.caja_text_persona{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 60px;
+	width: 420px;
+	height: 150px;
+	
+	margin-bottom: 600px;
+}
+
+	.caja_text_p{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+.caja3_h2{
+	
+	margin-left: 400px;
+	padding-top: 200px;
+}
+
+.caja_img1{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.caja_img10{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.caja_p_1{
+		display: inline-block;
+		width: 210px;
+		height: 100px;
+		background-color: ;
+		margin-left: 20px;
+		margin-bottom: 50px;
+		padding-top: 50px;
+		}
+
+        .p_1{
+        	display: inline-block;
+        	margin-top: -20px;
+        	padding-left: 10px;
+			padding-right: 10px;
+			}
+
+.caja_p_10{
+		display: inline-block;
+		width: 210px;
+		height: 100px;
+		background-color: ;
+		margin-left: 20px;
+		margin-bottom: 400px;
+		padding-top: 50px;
+		}
+		
+        .p_10{
+        	display: inline-block;
+        	margin-top: 20px;
+        	padding-left: 10px;
+			padding-right: 10px;
+			}
+
+
+.caja4_h2{
+	margin-left: 400px;
+	padding-top: 200px;
+
+}
+
+.caja_img4{
+	display: inline-block;
+	margin-left: 30px;
+	vertical-align: middle;
+	margin-bottom: 50px;
+
+}
+
+.caja_p_4{
+		display: inline-block;
+		width: 300px;
+		height: 50px;
+		background-color: ;
+		margin-left: 20px;
+		margin-bottom: 50px;
+		padding-top: 50px;
+		vertical-align: middle;
+		
+	}
+
+	.p_4{
+
+		display: inline-block;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: -20px;
+
+	}
+
+
+
+/*---------  imagenes ---------*/
+img{
+
+	border: solid 3px #c7c7c7;
+	padding: 3px;
+
+}
+
+.img_class{
+
+	border: solid 5px #c7c7c7;
+	padding: 9px;
+}
+
+
+.circulo{
+	border-radius: 50%;
+	border: solid 6px white;	
+	padding: 5px;
+}
+
+/*---------  Menus ---------*/
+.caja_menu1{
+	display: inline-block;
+	margin-left: 390px;
+	margin-bottom: 200px;
+}
+
+	.caja_li{
+		display: inline-block;
+		font-size: 17px;
+
+	}
+
+	.caja_a{
+		display: inline-block;
+		text-decoration: none;
+		color: black;
+		margin-left: 20px;
+		color: white;
+		font-family:"Bold";
+
+		
+		display: block;
+		padding: 5px;
+		border: solid 2px transparent;
+	}
+
+	.caja_a:hover{
+			border-color: white;
+		}
+
+.caja_menu2{
+	display: inline-block;
+	margin-left: -30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+/*---------  Face//Pinterst ---------*/
+
+.link{
+		display: inline-block;
+		margin-left: 280px;
+	}
+
+.link_ul{
+	list-style: none;
+
+	padding: 0;
+	display: flex;
+
+		
+	
+}
+
+	.caja_li2{
+			margin-right: 14px;
+
+			
+	}
+
+	.caja_link2{
+			width: 53px;
+			height: 53px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 50%;
+			background-color: rgba(255, 255, 255, 0.45);
+			text-decoration: none;
+			color: rgba(255, 255, 255, 0.45);
+			font-size: 20px;
+			transition:  border-radius 0.4s;
+
+
+	}
+
+	.caja_link2:hover{
+			background-color: #6294ec;
+			color: black;
+			border-radius: 0;		
+		}
